@@ -1,14 +1,12 @@
 import React from 'react';
 // Styles
-import { Wrapper, Content, Circles } from './Header.styles';
+import { Wrapper, Content } from './Header.styles';
 
 const Header = () => (
     <Wrapper>
-        <Content>
-            <Circles>
-                Hi
-            </Circles>
-        </Content>
+        <Content />
+        <Content />
+        <Content />
     </Wrapper>
 );
 
