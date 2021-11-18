@@ -1,11 +1,12 @@
 import React from 'react';
 import { FaChevronRight, FaChevronDown, FaFolder, FaFolderOpen, FaFileAlt } from 'react-icons/fa';
 // Styles
-import { Wrapper, Content } from './Folder.styles';
+import {  Content } from './FolderMain.styles';
 
-const Folder = ({text, callback}) => {
+const FolderMain = ({text, callback}) => {
+    
    return( 
-   <Wrapper>
+//    <Wrapper type="button" onClick={callback}>
        
         <Content type="button" onClick={callback}>
             <div className="chevron-right"><FaChevronRight /></div> 
@@ -14,7 +15,8 @@ const Folder = ({text, callback}) => {
         </Content>
 
       
-    </Wrapper>)
+    // </Wrapper>
+    )
 };
 
-export default Folder;
+export default FolderMain;
