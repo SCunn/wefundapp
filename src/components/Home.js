@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+
 import Body from './Body';
 
 const Home = () => {
@@ -17,9 +18,7 @@ const Home = () => {
    }, []);
 
    return (
-    <>
-      {cars && <Body cars={cars}/>}
-    </>
+        <Body />
   );
 }
 
