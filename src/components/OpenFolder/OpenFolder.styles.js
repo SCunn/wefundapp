@@ -14,8 +14,7 @@ export const Content = styled.button`
     cursor: pointer;
     transition: all 0.3s;
     border: 0;
-    background: 0;
-
+    background: none;
     
     
     .folder {

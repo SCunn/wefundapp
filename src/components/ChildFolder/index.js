@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaChevronRight, FaChevronDown, FaFolder, FaFolderOpen, FaFileAlt } from 'react-icons/fa';
 // Styles
-import { Content } from './Folder.styles';
+import { Content } from './ChildFolder.styles';
 
-const Folder = ({text, callback}) => {
+const ChildFolder = ({text, callback}) => {
    return( 
         <Content type="button" onClick={callback}>
             <div className="chevron-right"><FaChevronRight /></div> 
@@ -14,4 +14,4 @@ const Folder = ({text, callback}) => {
     )
 };
 
-export default Folder;
+export default ChildFolder;

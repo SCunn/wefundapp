@@ -1,11 +1,7 @@
 import styled from 'styled-components';
 
-// export const  Wrapper = styled.div`
-//     padding: 0px 0 0 30%;
-// `; 
-
-export const Content = styled.button`
-    padding: 0px 0 0 30%;
+export const Content = styled.div`
+    padding: 0 0 0 40%;
 
     color: #8f9ead;
     display: inline-flex;
@@ -14,17 +10,17 @@ export const Content = styled.button`
     border: 0;
     background: none;
     
-    .folder {
-        font-size: xx-large;
+    .file {
+        font-size: x-large;
+        
     }
 
-    .chevron-right {
-        padding: 0.5em;
-    }
+    
 
     .text-right {
         padding: 0.5em 0.5em 0.5em 1em;
-        font-weight: bold;
+        font-weight: bolder;
+        font: 13.3333px Arial;
     }
 
     :hover {
