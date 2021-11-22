@@ -8,9 +8,8 @@ const BottomLine = ({text}) => {
       <Wrapper>
         <Content>
           <div className="bottom-line"></div>
-          <div className="round-up">
+          <div className="total">
               <div>Total Files: {text}</div>
-              <div>Total Filesize: {text}</div>
           </div>
         </Content>
 

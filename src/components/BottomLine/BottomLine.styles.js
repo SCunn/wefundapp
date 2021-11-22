@@ -16,10 +16,10 @@ export const Content = styled.div`
     margin-top: 10%;
   }
 
-  .round-up {
+  .total {
       font-size: x-large;
       font-weight: 500;
-      padding: 20px 0 60px 40px;
+      padding: 20px 0 0 40px;
       color: #8f9ead;
   }
 

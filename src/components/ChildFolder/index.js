@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaChevronRight, FaChevronDown, FaFolder, FaFolderOpen, FaFileAlt } from 'react-icons/fa';
+import { FaChevronRight, FaFolder } from 'react-icons/fa';
 // Styles
 import { Content } from './ChildFolder.styles';
 
